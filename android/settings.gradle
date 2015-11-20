@@ -1,0 +1,3 @@
+rootProject.name = 'ChangeSenceProject'
+
+include ':app'
