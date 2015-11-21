@@ -7,8 +7,8 @@ var {
   Text,
   View,
 } = React;
-
 var SenceA = React.createClass({
+  //touch事件回调
  touch: function(target:Object){
   this.props.navigator.push(
    {
@@ -36,4 +36,5 @@ var styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
 });
+//导出场景，供外部require
 module.exports = SenceA;
